@@ -25,14 +25,14 @@ function runTime() {
             <br> Your Score: ${score}
             <br> Go For More</h1>`;
 
-            if (score > 200) {
+            if (score > 250) {
                 alert("are you an alien?");
-            } else if (score > 140) {
+            } else if (score > 200) {
                 alert("You're such a skilled gamer");
-            } else if (score > 100) {
+            } else if (score > 150) {
                 alert("nice");
             } else {
-                alert("try hard you fool");
+                alert("Game khelna nhi aata kya ?");
             }
         }
     }, 1000);
