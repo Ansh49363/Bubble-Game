@@ -30,13 +30,13 @@ function runTime() {
             <br> are you an alien?</h1>`;
             } else if (score > 200) {
                 document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Your Score: ${score}
-            <br> are you an alien?</h1>`;
+            <br> Well played</h1>`;
             } else if (score > 150) {
                 document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Your Score: ${score}
-            <br> Bhot Badhiya</h1>`;
+            <br> Nice Try</h1>`;
             } else {
                 document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Your Score: ${score}
-            <br> Game khelna nhi aata kya ?</h1>`;
+            <br> Push pass your limit</h1>`;
             }
         }
     }, 1000);
