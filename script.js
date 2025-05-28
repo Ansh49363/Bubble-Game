@@ -21,18 +21,22 @@ function runTime() {
         }
         else {
             clearInterval(timerint);
-            document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Game Over ✌🏻
-            <br> Your Score: ${score}
-            <br> Go For More</h1>`;
+            // document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Game Over ✌🏻
+            // <br> Your Score: ${score}
+            // <br> Go For More</h1>`;
 
             if (score > 250) {
-                alert("are you an alien?");
+                document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Your Score: ${score}
+            <br> are you an alien?</h1>`;
             } else if (score > 200) {
-                alert("You're such a skilled gamer");
+                document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Your Score: ${score}
+            <br> are you an alien?</h1>`;
             } else if (score > 150) {
-                alert("nice");
+                document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Your Score: ${score}
+            <br> Bhot Badhiya</h1>`;
             } else {
-                alert("Game khelna nhi aata kya ?");
+                document.querySelector("#pnl-bt").innerHTML = `<h1 class="result-text">Your Score: ${score}
+            <br> Game khelna nhi aata kya ?</h1>`;
             }
         }
     }, 1000);
