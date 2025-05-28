@@ -29,7 +29,7 @@ function runTime() {
                 alert("are you an alien?");
             } else if (score > 140) {
                 alert("You're such a skilled gamer");
-            } else if (score >= 80) {
+            } else if (score > 100) {
                 alert("nice");
             } else {
                 alert("try hard you fool");
